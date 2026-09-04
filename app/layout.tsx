@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const SITE_URL = 'https://dombra-tuner.erbolsadibekovvv.chatgpt.site';
+const SITE_URL = 'https://dombra-tuner.vercel.app';
 const TITLE = 'Dombra Tuner — онлайн-тюнер для домбры';
 const DESCRIPTION = 'Настройка домбры по микрофону, звуковые эталоны и объяснение традиционных строев.';
 
