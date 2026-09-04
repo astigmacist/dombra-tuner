@@ -4,11 +4,12 @@
   "private": true,
   "description": "Browser-based tuner for Kazakh dombra with traditional tunings and reference tones.",
   "engines": {
-    "node": ">=22.13.0"
+    "node": "22.x"
   },
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
+    "build:vercel": "next build",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
   },

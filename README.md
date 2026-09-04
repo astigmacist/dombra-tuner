@@ -24,6 +24,14 @@ npm run dev
 npm run build
 ```
 
+Для Vercel используется отдельная Next.js-сборка:
+
+```bash
+npm run build:vercel
+```
+
+Конфигурация в `vercel.json` выбирает её автоматически. Основная команда `build` сохранена для Cloudflare/Sites-версии проекта.
+
 ## Open source
 
 Определение высоты звука построено на [Pitchy](https://github.com/ianprime0509/pitchy) — реализации McLeod Pitch Method под лицензией MIT. Захват и синтез эталонного звука работают через стандартный Web Audio API.
