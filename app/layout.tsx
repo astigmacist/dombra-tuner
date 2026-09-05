@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 const SITE_URL = 'https://dombra-tuner.vercel.app';
-const TITLE = 'Dombra Tuner — онлайн-тюнер для домбры';
-const DESCRIPTION = 'Настройка домбры по микрофону, звуковые эталоны и объяснение традиционных строев.';
+const TITLE = 'Dombra Tuner — домбыраға арналған онлайн тюнер';
+const DESCRIPTION = 'Домбыраны микрофон арқылы келтіру, дыбыстық эталондар және дәстүрлі бұраулар туралы түсініктеме.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -14,9 +14,9 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     url: SITE_URL,
     siteName: 'Dombra Tuner',
-    locale: 'ru_KZ',
+    locale: 'kk_KZ',
     type: 'website',
-    images: [{ url: `${SITE_URL}/og.png`, width: 1200, height: 630, alt: 'Dombra Tuner — настрой домбру точно' }],
+    images: [{ url: `${SITE_URL}/og.png`, width: 1200, height: 630, alt: 'Dombra Tuner — домбыраны дәл келтіріңіз' }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru">
+    <html lang="kk">
       <body>{children}</body>
     </html>
   );

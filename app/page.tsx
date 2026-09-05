@@ -183,7 +183,7 @@ type ReferenceSession = {
 };
 
 export default function Home() {
-  const [language, setLanguage] = useState<Language>('RU');
+  const [language, setLanguage] = useState<Language>('KZ');
   const [selectedTuning, setSelectedTuning] = useState<TuningId>('on');
   const [isListening, setIsListening] = useState(false);
   const [detected, setDetected] = useState<(PitchMatch & { clarity: number }) | null>(null);
